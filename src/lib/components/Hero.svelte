@@ -9,7 +9,7 @@
 			Pipeline peace of mind
 		</h1>
 		<p class="text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed">
-			Surfe delivers prioritized daily leads via AI-powered signal monitoring across 10 million companies. Stop drowning in admin and start hitting your quota.
+			Surfe's AI aggregates far more buying signals, verifies contacts in real time, and guides your next moves - so you can grow your pipeline confidently
 		</p>
 	</div>
 
