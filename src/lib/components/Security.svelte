@@ -9,14 +9,14 @@
 	<div class="max-w-7xl mx-auto relative z-10">
 		<div class="flex flex-col md:flex-row justify-between gap-16 mb-24">
 			<h2 class="font-serif-display text-4xl md:text-5xl text-white max-w-md leading-tight">
-				Enterprise-grade security and controls
+				Enterprise-grade security and compliance
 			</h2>
 			<div class="max-w-lg">
 				<p class="text-gray-400 text-lg leading-relaxed mb-8">
-					Harvey meets the highest industry standards for security and compliance. We include all default controls that enterprise teams expect: SAML SSO, audit logs, IP allow-listing, data lifecycle management, and more.
+					Surfe meets the highest industry standards for security and data privacy. We ensure your CRM data and prospect intelligence are handled with the utmost care, including SOC2 Type II compliance and full GDPR alignment.
 				</p>
 				<button class="px-6 py-2 border border-gray-700 rounded text-sm text-white hover:bg-white hover:text-black transition-colors">
-					More About Security
+					View Security Whitepaper
 				</button>
 			</div>
 		</div>
