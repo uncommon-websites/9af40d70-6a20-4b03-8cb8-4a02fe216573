@@ -1,36 +1,24 @@
 <script lang="ts">
-	import { Play } from 'lucide-svelte';
+	import { ArrowRight } from 'lucide-svelte';
 </script>
 
-<section class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
-	<div class="mb-16">
-		<span class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-4 block">The AI Layer for Sales Intelligence</span>
-		<h1 class="font-serif-display text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight text-gray-900 leading-[0.95] mb-8">
-			Pipeline peace of mind
+<section class="min-h-screen flex items-center justify-center px-6 py-20">
+	<div class="max-w-5xl mx-auto text-center">
+		<h1 class="font-serif-display text-7xl md:text-8xl lg:text-9xl font-light tracking-tight text-gray-900 leading-[0.9] mb-12">
+			Pipeline peace<br/>of mind
 		</h1>
-		<p class="text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed">
-			Surfe's AI aggregates far more buying signals, verifies contacts in real time, and guides your next moves - so you can grow your pipeline confidently
+		<p class="text-xl md:text-2xl text-gray-500 max-w-3xl mx-auto leading-relaxed mb-16 font-light">
+			AI-powered sales intelligence that tells you who to call, when to call them, and what to say
 		</p>
-	</div>
-
-	<!-- Hero Image -->
-	<div class="relative w-full rounded-xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
-		<img 
-			src="/generated/image-a-high-end-modern-software-dashboard-for-1771338990958-0.webp" 
-			alt="Surfe AI Sales Dashboard" 
-			class="w-full aspect-[16/9] object-cover"
-		/>
-	</div>
-
-	<div class="mt-8 flex flex-wrap gap-4 items-center">
-		<button class="px-8 py-4 bg-black text-white rounded-full font-medium hover:bg-gray-800 transition-colors">
-			Get Your First 20 Leads Free
-		</button>
-		<button class="flex items-center text-sm font-medium text-gray-900 hover:text-gray-600 transition-colors group">
-			<div class="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center mr-3 group-hover:bg-gray-800 transition-colors">
-				<Play class="w-3 h-3 fill-current ml-0.5" />
-			</div>
-			Watch Demo
-		</button>
+		
+		<div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
+			<button class="group px-8 py-4 bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition-all duration-300 flex items-center gap-2">
+				Get started
+				<ArrowRight class="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+			</button>
+			<button class="px-8 py-4 text-sm font-medium text-gray-900 hover:text-gray-600 transition-colors">
+				Watch demo
+			</button>
+		</div>
 	</div>
 </section>
